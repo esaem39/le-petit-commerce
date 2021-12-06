@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #707070;
+}
+.container{
+    display: flex;
+    padding-top: 10px;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.text h1{
+    padding-bottom: 20px;
+    font-size: 2em;
+    line-height: 1.15;
+
+
+}
+.text h2{
+    font-size: 1.5em;
+}
+.text h3{
+    padding: 20px 0 20px 0;
+    font-size: 1.5em;
+}
+.text h4{
+    padding: 10px 0 20px 0;
+}
+.text .couleur{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.text .couleur .bloc_modele{
+    display: flex;
+}
+.text .couleur .bloc_modele img{
+    display: flex;
+    padding: 15px 15px 0 0;
+}
+.button{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button #acheter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: #3b3b3b;
+    font-size: 10px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.button #acheter:hover{
+    background-color: rgb(65, 65, 65);
+}
+.button ajouterPanier{
+    background-color: transparent;
+    border: 2px solid gray;
+    display: flex;
+    cursor: pointer;
+    color: #3b3b3b;
+    font-size: 10x;
+    text-decoration: none;
+}
+.image{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+/*header{
+    width: 100%;
+    
+}
+a{
+    color: rgb(255, 0, 0);
+}*/
+
+
+/*--------entete--------*/
+/*.top{
+    background: rgb(56, 54, 54);
+    color: white;
+
+}
+figure img{
+    color: wheat;
+}
+h1{
+    margin: 0;
+}
+.logo{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+.navBar{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.navBar a, form {
+    display: inline-block;
+    margin: 0 5px;
+    color: rgba(255, 255, 255, 0.70);
+    transition: color .4s;
+}
+.navBar a:hover{
+    color: white;
+}
+.contact{
+    width: 80%;
+    margin: 30px auto;
+    max-width: 600px;
+    text-align: center;
+    color: black;
+    font-size: 00.9em;
+}
+.mention{
+     color: black;
+     font-size: 0.9em;
+}
+.grid{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "input1 input2 message"
+    "textarea textarea textarea";
+}
+.textarea{
+    grid-area: textarea;
+}
+label{
+    font-weight: 600px;
+}
+input[type="text"], textarea{
+    width: 100%;
+    margin: 15px 0 30px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+.button{
+    border-radius: 10px;
+    background: transparent;
+    padding: 5px 5px;
+}

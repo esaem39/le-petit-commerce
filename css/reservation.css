@@ -1,0 +1,142 @@
+*{
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/membre.jpg) center/cover;
+}
+.contact{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.grid{
+    width: 80%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "imput1 input2"
+    "input3 input3"
+    "input4 input4"
+    "textarea textarea"
+    "carte carte";
+    
+    max-width: 600px;
+}
+.mail{
+    grid-area: input3;
+}
+.textarea{
+    margin-top: 20px;
+    grid-area: textarea;
+}
+iframe{
+    height: 300px;
+    grid-area: carte;
+}
+.date{
+    grid-area: input4;
+    font-size: 1.5em;
+    
+}
+#date{
+    padding: 10px;
+    font-size: 1.2em;
+    
+}
+
+label{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+input[type="text"], textarea{
+width: 90%;
+margin: 20px 0;
+border-radius: 2px;
+border: 1px solid gray;
+padding: 10px;
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.button{
+    padding: 5px 10px;
+    background-color: transparent;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+header{
+    width: 100%; 
+    background: black;   
+}
+.top{
+    background: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+.logo img{
+    border-radius: 50px;
+}
+.navBar{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.navBar a{
+    display: inline-block;
+    color: rgb(236, 236, 236);
+    transition: color .4s;
+}
+form {
+    display: inline-block;
+    margin: 0 5px;
+    color: black;
+}
+.navBar a{
+    padding-left: 10px;
+}
+.navBar a:hover{
+    color: rgb(255, 2, 2);
+}
+
+/*--------fin entete--------*/
+footer{
+    background: #000000;
+      
+    grid-area: footer;
+    height: auto;
+    text-align: center;  
+    min-height: 180px;
+    padding-top: 20px;
+    margin-top: 10px;
+    
+}
+footer p, a, i{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+   padding-bottom: 40px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}

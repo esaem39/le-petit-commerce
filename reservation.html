@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reservation.css">
+
+    <title>RDV</title>
+</head>
+
+<body>
+    <!--------entete------->
+    <header class="top">
+        <div class="logo">
+            <img src="img/logo.jpg" alt="" width="70px">
+            <h1>Le Petit Commerce</h1>
+        </div>
+        <nav class="navBar">
+            <a href="index.html">Accueil</a>
+            <a href="monCompte.html">
+                <figure>
+                    <img src="img/perso.png.png" alt="perso" width="15px">
+                    <figcaption>Mon compte</figcaption>
+                </figure>
+            </a>
+            <a href="mesCommandes.html">
+                <figure>
+                    <img src="img/commandes.png" alt="perso" width="30px">
+                    <figcaption>Mes Commandes</figcaption>
+                </figure>
+            </a>
+            <a href="monPanier.html">
+                <figure>
+                    <img src="img/panier.png" alt="perso" width="15px">
+                    <figcaption>Mon panier</figcaption>
+                </figure>
+            </a>
+
+        </nav>
+    </header>
+
+    <!-----fin entete------->
+    <div class="contact">
+        <h2>Rendez Vous</h2>
+        <form action="post">
+            <div class="grid">
+                <div>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="surname">Prenom</label>
+                    <input type="text" id="surname">
+                </div>
+                <div class="mail">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                </div>
+                <div class="date">
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="textarea">
+                    <label for="message">Motif du Rdv</label>
+                    <textarea id="message"></textarea>
+                    <input type="submit" class="button" value="envoyer">
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39907.81423160393!2d2.1744280773541615!3d48.71699535502367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5d632c38c10ed%3A0xf03f0af075589101!2sCostco%20Villebon-sur-Yvette!5e0!3m2!1sfr!2sfr!4v1638706386479!5m2!1sfr!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="retour">
+                <a href="#"><img src="img/retour.png" alt="haut" width="150px"></a>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Satisfait ou remboursé, Besoin d'aide ? 01 01 01 01 01 (appel gratuit), Paiement sécurisé</p>
+        <div class="foot">
+            <ul>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="Mentions.html">Mention Légales</a>
+                </li>
+                <li>
+                    <a href="newsLetter.html">S inscrire à la newsletter</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-print"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/reservation.js"></script>
+</body>
+
+</html>
