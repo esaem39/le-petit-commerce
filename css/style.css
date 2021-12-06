@@ -191,9 +191,10 @@ font-size: 2em;
     font-weight: bold;
     padding: 20px;    
 }
-.qui button{
-    color: rgb(226, 0, 0);
+.qui a{
+    color: rgb(0, 0, 0);
     padding: 15px;
+    border: 1px solid black;
     border-radius: 10px;
     font-size: 1.1em;
 }
