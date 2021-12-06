@@ -64,3 +64,24 @@ bouton34.addEventListener('click', () => {
 bouton35.addEventListener('click', () => {
     images5.src = "img/robe0.jpg";
 });
+let bouton36 = document.getElementById('objet36');
+let bouton37 = document.getElementById('objet37');
+let bouton38 = document.getElementById('objet38');
+let bouton39 = document.getElementById('objet39');
+let bouton40 = document.getElementById('objet40');
+let images6 = document.getElementById('imageRemoves6');
+bouton36.addEventListener('click', () => {
+    images6.src = "img/manteau.jpg";
+});
+bouton37.addEventListener('click', () => {
+    images6.src = "img/manteau1.jpg";
+});
+bouton38.addEventListener('click', () => {
+    images6.src = "img/manteau2.jpg";
+});
+bouton39.addEventListener('click', () => {
+    images6.src = "img/manteau3.jpg";
+});
+bouton40.addEventListener('click', () => {
+    images6.src = "img/manteau.jpg";
+});
