@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Kalam', cursive;
+}
+header nav{
+    width: 100%;
+    height: 70px;
+}
+header nav a{
+    color: wheat;
+    text-decoration: none;
+    transition: transform 0.6s;
+}
+header nav a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+}
+h1{
+    color: red;
+    font-family: 'Fruktur', cursive;
+    font-size: 1.5em;
+}
+nav{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+.gauche{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gauche ul{
+    list-style-position: inside;
+    list-style: none;
+    color: wheat;
+    display: flex;
+    padding: 5px 0 0 10px;
+    
+}
+.gauche ul li{
+    padding-left: 15px;
+}
+.droite{
+    display: flex;
+    flex-wrap: wrap;
+}
+.droite a p{
+    color: wheat;
+    padding-left: 40px;
+}
+.droite a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+}
+@media screen and (max-width: 560px) {
+    nav {
+        display: block;
+    }
+
+    .droite p{
+        padding-top: 10px;
+    }
+    
+}
+section{
+    background: url(../img/piano.jpg);
+    
+}
+.contenu{
+    
+    padding: 25px;
+    
+}
+.contenu h2{
+    color: wheat;
+    padding:0 0 10px 5px;
+}
+.contenu .list{
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.contenu .list a{
+    padding-left: 10px;
+    transition: transform 0.5s;
+}
+.contenu .list a:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.contenu .list a img{
+    height: 300px;
+    width: 400px;
+}
+.slider{
+    width: 500px;
+    margin: 10px auto;
+}
+.img-div{
+    width: 500px;
+    height: 300px;
+    margin: 0 10px; 
+}
+/*.div1{
+    background: url(../img/press.jpg) center no-repeat;
+    background-size: cover;
+}
+.div2{
+    background: url(../img/press1.jpg) center no-repeat;
+    background-size: cover;
+}
+.div3{
+    background: url(../img/press2.jpg) center no-repeat;
+    background-size: cover;
+}
+.div4{
+    background: url(../img/press3.jpg) center no-repeat;
+    background-size: cover;
+}
+*/
+footer{
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer h3{
+    padding-right: 50px;
+}
+footer ul{
+    padding: 0 50px;
+}
+footer img{
+    width: 90px;
+    border-radius: 50px;
+}
+@media screen and (max-width:560px) {
+    .contenu .list{
+        display: block;
+        text-align: center;
+    }
+    .list img{
+        width: 100%;
+    }
+    
+}
+

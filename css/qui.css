@@ -19,6 +19,7 @@ p{
 }
 a{
     color: white;
+    font-size: 1.3em;
 }
 /*.text{
     visibility:hidden;		
@@ -93,7 +94,7 @@ textarea{
     color: red;
 }
 header{
-    background: url(../img/boutique2blanc.jpg);
+    background: url(../img/boutique3.jpg);
     padding: 20px;
     margin: 0 10px;
     font-size: 1.5em;
@@ -157,7 +158,11 @@ h2{
 footer{
     grid-area: footer;
     padding: 50px;
-    background: url(../img/boutique2blanc.jpg);
+    background: url(../img/boutique3.jpg);
     color: red;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+footer a{
+    color: rgb(255, 0, 0);
 }
