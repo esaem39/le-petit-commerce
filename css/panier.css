@@ -7,6 +7,7 @@
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 1.1em;
+
 }
 body{
     background: url(../img/fond.jpg);
@@ -37,10 +38,6 @@ a:hover{
     text-decoration: none;
     transform: scale(1.1);
 
-}
-P{
- padding: 0;
- margin: 0;
 }
 form{
     padding-left: 15px;
@@ -76,7 +73,9 @@ h2{
 }
 @media screen and (min-width: 600px) {
     .container{
-        grid-template-columns: repeat(4, 2fr);
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+       
     }
 }
 

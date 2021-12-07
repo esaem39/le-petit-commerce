@@ -30,6 +30,10 @@ h1{
     font-family: 'Fruktur', cursive;
     font-size: 1.5em;
 }
+h3{
+    color: wheat;
+    padding: 20px 0 0 10px;
+}
 nav{
     background-color: black;
     display: flex;
@@ -42,6 +46,11 @@ nav{
     display: flex;
     flex-wrap: wrap;
     
+}
+.gauche img{
+    width: 80px;
+    border-radius: 50px;
+    padding: 0 10px;
 }
 .gauche ul{
     list-style-position: inside;
@@ -70,12 +79,14 @@ nav{
 }
 @media screen and (max-width: 560px) {
     nav {
-        display: block;
+        display: flex;
+        justify-content: space-around;
     }
 
     .droite p{
         padding-top: 10px;
     }
+
     
 }
 section{
@@ -92,7 +103,7 @@ section{
     padding:0 0 10px 5px;
 }
 .contenu .list{
-    display: flex;
+    display: block;
     justify-content: center;
     overflow-y: auto;
     margin-bottom: 20px;
@@ -151,15 +162,5 @@ footer ul{
 footer img{
     width: 90px;
     border-radius: 50px;
-}
-@media screen and (max-width:560px) {
-    .contenu .list{
-        display: block;
-        text-align: center;
-    }
-    .list img{
-        width: 100%;
-    }
-    
 }
 
