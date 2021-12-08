@@ -66,9 +66,15 @@ input{
 }
 .objet{
     margin-bottom: 20px;
+    cursor: pointer;
+}
+.objet img:hover{
+    transform: scale(1.1) rotate(2deg);
+    transition: 0.5s;
 }
 .objet img{
 width: 250px;
+height: 200px;
 }
 h2{
     padding: 0;

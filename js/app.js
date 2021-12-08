@@ -1,3 +1,8 @@
+$(document).ready(function () {
+    function FaireClignoterImage() { $(".clignote").fadeOut(300).delay(300).fadeIn(300); }
+    setInterval(FaireClignoterImage, 900);
+})
+
 
 /*$(document).ready(function () {
     // Activate Carousel

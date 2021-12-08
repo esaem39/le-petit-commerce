@@ -29,7 +29,9 @@ h1{
    
     font-weight: 500;
 }
-
+h3{
+    cursor: pointer;
+}
 .logo{
     display: block;
     text-align: center;
@@ -80,7 +82,7 @@ a:hover{
   }
 /*--------contenu--------*/
 .container .image{
-    background: url(../img/football.jpg) center/cover;
+    background: url(../img/nike.jpg) center/cover;
    
     min-height: 300px;
     text-align: center;
@@ -113,6 +115,7 @@ a:hover{
     font-weight: 500;
     /*font-size: 1.3em;*/
     text-decoration: none;
+    padding: 2 0px;
 }
 .container a:hover{
 
@@ -167,19 +170,25 @@ header{
     grid-area: image;
 }
 .image a{
-    font-size: 2em;
+    font-size: 3em;
+    padding: 50px;
 }
 .image1{
     grid-area: image1;
+   
 }
 .image1 a{
-font-size: 2em;
+font-size: 3em;
+padding: 50px;
 }
 .image2{
     grid-area: image2;
+    
+    
 }
 .image2 a{
-    font-size: 2em;
+    font-size: 3em;
+    padding: 50px;
     }
 .avis{
     grid-area: avis;
@@ -196,7 +205,7 @@ font-size: 2em;
     padding: 15px;
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .reservation{
@@ -208,11 +217,16 @@ font-size: 2em;
 
 }
 .reservation p{
-    color: red;
+    color: rgb(7, 0, 36);
     border-radius: 10px;
     margin: 0;
     padding: 20px;
     background: rgb(245, 245, 245);
+    font-weight: 600;
+}
+.reservation a p{
+    color: red;
+    font-size: 1.2em;
 }
 .retour{
 font-size: 1.2em;
@@ -241,15 +255,16 @@ footer{
     height: auto;
     text-align: center;  
     min-height: 200px;
-    padding-top: 50px;
-}
-footer ul{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+padding: 0;}
+footer ul li{
+    display: block;
+
 }
 i{
-    font-size: 1.5em;
+    font-size: 1.1em;
+}
+footer a{
+    padding: 0;
 }
 
 
@@ -280,8 +295,14 @@ footer a{
     form{
         display: none;
     }
-    .reservation p, .retour a p {
+    .reservation{
+    
+        padding: 0;margin: 0;
+    }
+    #image-neon{
         background: white;
+        padding: 0;
+        margin: 0;
     }
     footer{
         

@@ -107,7 +107,7 @@ img{
         grid-template-columns: 50% 50%;
     }
     .image-banner{
-        background: url(../img/woman.jpg)fixed center/cover; 
+        background: url(../img/boutique2blanc.jpg)fixed center; 
     }
     
     .section-1{
@@ -169,6 +169,10 @@ img{
         font-size: 0.8rem;
         letter-spacing: 1px;
     }*/
+    .clignote{
+        color: red;
+        font-size: 1.5em;
+    }
     footer{
         background: #000000;
           

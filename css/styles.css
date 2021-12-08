@@ -175,6 +175,10 @@ img{
         font-size: 0.8rem;
         letter-spacing: 1px;
     }
+    .red{
+        color: red;
+        font-size: 1.5em;
+    }
 
     footer{
         background: #000000;
