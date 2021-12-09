@@ -15,7 +15,7 @@ img{
     border-radius: 50px;
     position: absolute;
     top: 5px;
-    left: 25%;
+    left: 48%;
 }
 .fond{
     background: url(../img/fond.jpg) no-repeat center/cover;
@@ -32,23 +32,36 @@ ul li{
 }
 h1{
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 10%;
+    left: 33%;
     background-color: rgba(0, 0, 0, 0.25);
     padding: 5px;
 }
-H2{
+h2{
     position: absolute;
-    top: 30%;
-    left: 25%;
+    top: 20%;
+    left: 48%;
+    
+}
+.fond h2 a{
+    color: white;
 }
 ul{
     position: absolute;
-    top: 45%;
-    left: 33%;
+    top: 30%;
+    left: 28%;
 
     text-align: center;
     border-radius: 20px;
+}
+form{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+   
+}
+form input{
+    padding: 10px;
 }
 .fa-tint{
     color: grey;
